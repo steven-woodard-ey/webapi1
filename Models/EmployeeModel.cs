@@ -7,7 +7,7 @@ namespace app1.Models;
 public class EmployeeModel
 {
     [Key, Column("employee_id")]
-    public int EmployeeId { get; set; }
+    public int? EmployeeId { get; set; }
 
     [Column("name")]
     public string? Name { get; set; }
